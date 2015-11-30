@@ -26,7 +26,7 @@ The simples way to enable monitoting for pintod is [sparrow](https://github.com/
     sparrow project foo add_site pinto-server 127.0.0.1:3111
 
     # run tests
-    sparrow project foo check_site pinto-server swat-pinto
+    sparrow project foo check_site pinto-server swat-pintod
 
   
 # Swat settings
