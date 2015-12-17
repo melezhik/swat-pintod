@@ -1,6 +1,7 @@
 {
-    "version": "0.0.1",
+    "version": "0.0.2",
     "name" : "swat-pintod",
-    "description": "swat smoke tests for pinto remote API"
+    "description": "swat smoke tests for pinto remote API",
+    "url" : "https://github.com/melezhik/swat-pintod"
 }
 

@@ -6,29 +6,8 @@ This simple test suit could be used in various CI processes, f.e. when running t
 
 # INSTALL
 
-The simples way to enable monitoting for pintod is [sparrow](https://github.com/melezhik/sparrow.git)
-
-    # install Sparrow and dependencies
-    cpanm Sparrow
-
-    sudo yum install curl
-    sudo yum install git
-
-    # install plugin
-    sparrow
-    echo swat-pintod https://github.com/melezhik/swat-pintod.git >> ~/sparrow/sparrow.list
     sparrow plg install swat-pintod
 
-
-    # setup pintod application
-    sparrow project foo create
-    sparrow project foo add_plg swat-pintod
-    sparrow project foo add_site pinto-server 127.0.0.1:3111
-
-    # run tests
-    sparrow project foo check_site pinto-server swat-pintod
-
-  
 # Swat settings
 
 **PINTO\_PROTOCOL\_VERSION**, default value is `1`
