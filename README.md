@@ -14,8 +14,6 @@ This simple test suit could be used in various CI processes, f.e. when running t
 
 # Example output
 
-    $ sparrow project foo check_site pintod-server swat-pintod
-    # sparrow environment initialzed at /home/vagrant/sparrow
     /home/vagrant/.swat/.cache/29435/prove/action/statistics/00.POST.t ..
     ok 1 - POST 127.0.0.1:3111/action/statistics succeeded
     # response saved to /home/vagrant/.swat/.cache/29435/prove/wUZMevEpHP
